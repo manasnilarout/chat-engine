@@ -1,0 +1,32 @@
+{
+  "name": "chat-engine",
+  "version": "1.0.0",
+  "description": "A simple chat application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manasnilarout/chat-engine.git"
+  },
+  "keywords": [
+    "node.js",
+    "scocket.io",
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "Manas Ranjan Nilorout",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manasnilarout/chat-engine/issues"
+  },
+  "homepage": "https://github.com/manasnilarout/chat-engine#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "redis": "^3.0.2",
+    "socket.io": "^2.3.0"
+  }
+}
